@@ -15,8 +15,8 @@ body{
 }
 .container{
     max-width: 1110px;
-    margin: 0 auto;
-   
+    margin: 0 auto 100px;
+    
 }
 /* banner section start */
 .banner{
@@ -178,4 +178,17 @@ body{
 }
 /* banner section end */
 /* brand-logos section start */
+.brand-logos{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, white, lightgray, #fff);
+    border-image-slice: 1;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.brand-logos img{
+    height: 40px;
+}
+/* brand-logos section end */
 
