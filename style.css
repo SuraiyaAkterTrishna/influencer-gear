@@ -82,104 +82,7 @@ banner section start */
     left: 0;
     animation: typing 1.5s linear infinite;
 }
-@keyframes typing{
-    0% {
-        content: 'I|';
-    }
-    
-    7% {
-        content: 'In|';
-    }
-    
-    14% {
-        content: 'Inf|';
-    }
-    
-    21% {
-        content: 'Infl|';
-    }
-    
-    28% {
-        content: 'Influ|';
-    }
-    
-    35% {
-        content: 'Influe|';
-    }
-    
-    42% {
-        content: 'Influen|';
-    }
-    
-    49% {
-        content: 'Influenc|';
-    }
-    
-    56% {
-        content: 'Influence|';
-    }
-    
-    63% {
-        content: 'Influencer|';
-    }
-    
-    70% {
-        content: 'Influencer|';
-    }
-    
-    77%,
-    82% {
-    }
-    
-    89% {
-        content: 'Influencer|';
-    }
-    
-    90% {
-        content: 'Influence|';
-    }
-    
-    91% {
-        content: 'Influenc|';
-    }
-    
-    92% {
-        content: 'Influen|';
-    }
-    
-    93% {
-        content: 'Influe|';
-    }
-    
-    94% {
-        content: 'Influ|';
-    }
-    
-    95% {
-        content: 'Infl|';
-    }
-    
-    96% {
-        content: 'Inf|';
-    }
-    
-    97% {
-        content: 'In|';
-    }
-    
-    98% {
-        content: 'I|';
-    }
-    
-    99% {
-        content: '|';
-    }
-    
-    100% {
-        content: '|';
-    }
-    
-}
+
 .banner-text{
     font-size: 16px;
     font-weight: 600;
@@ -228,8 +131,9 @@ brand-logos section start */
 .brand-logos img{
     height: 40px;
 }
-/* brand-logos section end */
-/* Popular Collection Area Start */
+/* brand-logos section end 
+--------------------------------------------------------------------------------
+Popular Collection Area Start */
 .popular-collection h2{
     font-weight: 600;
     font-size: 28px;
@@ -393,9 +297,9 @@ footer .fab{
     border-radius: 50%;
     padding: 7.5px;
 }
-/* footer area end */
-
-/* Media Quary For Mobile Device */
+/* footer area end 
+-------------------------------------------------------------------------------
+Media Query For Mobile Device */
 @media only screen and (max-width: 688px) {
     .container, nav{
         width: 100%;
@@ -459,7 +363,10 @@ footer .fab{
     }
     
 }
-/* Media Quary For Tablet Device */
+/*  Media Query End For Mobile Device
+    ------------------------------------------------------------------------------
+    Media Query For Tablet Device
+*/
 @media only screen and (min-width: 689px) and (max-width: 992px) {
     .container, nav{
         width: 100%;
@@ -514,6 +421,108 @@ footer .fab{
     }
     .contact-details{
         padding: 0 10px;
+    }
+    
+}
+/*  Media Query End 
+    ------------------------------------------------------------------------------
+    keyframes for animation 
+*/
+@keyframes typing{
+    0% {
+        content: 'I|';
+    }
+    
+    7% {
+        content: 'In|';
+    }
+    
+    14% {
+        content: 'Inf|';
+    }
+    
+    21% {
+        content: 'Infl|';
+    }
+    
+    28% {
+        content: 'Influ|';
+    }
+    
+    35% {
+        content: 'Influe|';
+    }
+    
+    42% {
+        content: 'Influen|';
+    }
+    
+    49% {
+        content: 'Influenc|';
+    }
+    
+    56% {
+        content: 'Influence|';
+    }
+    
+    63% {
+        content: 'Influencer|';
+    }
+    
+    70% {
+        content: 'Influencer|';
+    }
+    
+    77%,
+    82% {
+    }
+    
+    89% {
+        content: 'Influencer|';
+    }
+    
+    90% {
+        content: 'Influence|';
+    }
+    
+    91% {
+        content: 'Influenc|';
+    }
+    
+    92% {
+        content: 'Influen|';
+    }
+    
+    93% {
+        content: 'Influe|';
+    }
+    
+    94% {
+        content: 'Influ|';
+    }
+    
+    95% {
+        content: 'Infl|';
+    }
+    
+    96% {
+        content: 'Inf|';
+    }
+    
+    97% {
+        content: 'In|';
+    }
+    
+    98% {
+        content: 'I|';
+    }
+    
+    99% {
+        content: '|';
+    }
+    
+    100% {
+        content: '|';
     }
     
 }
