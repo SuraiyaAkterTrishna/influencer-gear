@@ -191,4 +191,40 @@ body{
     height: 40px;
 }
 /* brand-logos section end */
-
+/* footer-area start */
+footer{
+    background-color: rgb(10, 8, 38);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer-content{
+    width: 262px;
+    height: 139;
+    text-align: center;
+}
+footer h2{
+    line-height: 36px;
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+footer .social-media-icon{
+    width: 176px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 17px auto;
+}
+footer .fab{
+    color: white;
+    font-size: 17px;
+    background-color: rgb(34, 33, 60);
+    border-radius: 50%;
+    padding: 7.5px;
+}
+/* footer area end */
