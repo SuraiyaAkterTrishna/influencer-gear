@@ -47,6 +47,13 @@ nav h3{
     color: #3A3A3A;
     padding: 10px;
 }
+.menu li:hover a{
+    color: #E02C6D;
+}
+.menu li:hover .nav-icon{
+    color: #E02C6D;
+}
+
 /* header section end */
 /* banner section start */
 .banner{
@@ -221,6 +228,87 @@ nav h3{
     height: 40px;
 }
 /* brand-logos section end */
+/* Popular Collection Area Start */
+.popular-collection h2{
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+    margin: 30px;
+}
+.collection-carts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.collectin-cart{
+    padding: 20px;
+    box-shadow: 5px 5px 20px #AAAAAA;
+    border-radius: 5px;
+}
+.collectin-cart .collection-image{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.collectin-cart .collection-title{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 16px 0px;
+    color: #18191F;
+}
+.collectin-cart .collection-price{
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 7px 0px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.collectin-cart .collection-rating{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #5E6366;
+}
+.collectin-cart .ratting{
+    margin-left: 8px;
+}
+.collectin-cart .fa-star{
+    color: #AEAEAE;
+    font-size: 12px;
+    padding: 0;
+}
+.collectin-cart .filled{
+    color: #FFC014;
+}
+.collectin-cart .collection-details{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+}
+.btn-section{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-section a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    margin-top: 50px;
+}
+.btn-section>.fa-arrow-right{
+    color: rgba(224, 44, 109, 0.87);
+}
+/* Popular Collection Area End */
 /* contact-area start */
 .contact-details{
     display: grid;
