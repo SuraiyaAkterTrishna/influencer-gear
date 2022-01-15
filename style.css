@@ -53,9 +53,9 @@ nav h3{
 .menu li:hover .nav-icon{
     color: #E02C6D;
 }
-
-/* header section end */
-/* banner section start */
+/* header section end 
+--------------------------------------------------------------------------------
+banner section start */
 .banner{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -213,8 +213,9 @@ nav h3{
     width: 440px;
     height: 414px;
 }
-/* banner section end */
-/* brand-logos section start */
+/* banner section end 
+---------------------------------------------------------------------------
+brand-logos section start */
 .brand-logos{
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -241,24 +242,22 @@ nav h3{
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
-.collectin-cart{
+.collection-cart{
     padding: 20px;
     box-shadow: 5px 5px 20px #AAAAAA;
     border-radius: 5px;
 }
-.collectin-cart .collection-image{
-    width: 300px;
-    height: 256px;
+.collection-cart .collection-image{
     border-radius: 5px;
     margin: 0 auto;
 }
-.collectin-cart .collection-title{
+.collection-cart .collection-title{
     font-size: 28px;
     line-height: 40px;
     margin: 16px 0px;
     color: #18191F;
 }
-.collectin-cart .collection-price{
+.collection-cart .collection-price{
     font-family: Inter;
     font-weight: normal;
     font-size: 24px;
@@ -266,7 +265,7 @@ nav h3{
     margin: 7px 0px;
     color: rgba(0, 0, 0, 0.87);
 }
-.collectin-cart .collection-rating{
+.collection-cart .collection-rating{
     font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
@@ -274,18 +273,18 @@ nav h3{
     letter-spacing: -0.1px;
     color: #5E6366;
 }
-.collectin-cart .ratting{
+.collection-cart .ratting{
     margin-left: 8px;
 }
-.collectin-cart .fa-star{
+.collection-cart .fa-star{
     color: #AEAEAE;
     font-size: 12px;
     padding: 0;
 }
-.collectin-cart .filled{
+.collection-cart .filled{
     color: #FFC014;
 }
-.collectin-cart .collection-details{
+.collection-cart .collection-details{
     font-family: Inter;
     font-weight: bold;
     font-size: 14px;
@@ -308,8 +307,9 @@ nav h3{
 .btn-section>.fa-arrow-right{
     color: rgba(224, 44, 109, 0.87);
 }
-/* Popular Collection Area End */
-/* contact-area start */
+/* Popular Collection Area End 
+-----------------------------------------------------------------------------
+contact-area start */
 .contact-details{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -352,8 +352,9 @@ nav h3{
     border: 1px solid #E02C6D;
     color: #E02C6D;
 }
-/* Contact Area End  */
-/* footer-area start */
+/* Contact Area End  
+----------------------------------------------------------------------
+footer-area start */
 footer{
     background-color: rgb(10, 8, 38);
     height: 240px;
@@ -393,3 +394,126 @@ footer .fab{
     padding: 7.5px;
 }
 /* footer area end */
+
+/* Media Quary For Mobile Device */
+@media only screen and (max-width: 688px) {
+    .container, nav{
+        width: 100%;
+        margin: 20px auto 50px;
+    }
+    .menu{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .banner-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        order: 2;
+    }
+    .banner-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+    .banner-right img{
+        height: 480px;
+    }
+    .brand-logos{
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+        grid-row-gap: 10px;
+    }
+    .brand-logos img{
+        width: 100px;
+        height: 50px;
+    }
+    .collection-carts{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collection-cart img{
+        width: 100%;
+    }
+    .contact-header{
+        padding: 0 50px;
+    }
+    .contact-details{
+        grid-template-columns: 1fr;
+    }
+    .contact-left{
+        text-align: center;
+    }
+    .contact-right{
+        padding: 0 10px;
+    }
+    
+}
+/* Media Quary For Tablet Device */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container, nav{
+        width: 100%;
+        margin: 20px auto 50px;
+    }
+    .menu{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    .animated-text::before{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .banner-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        order: 2;
+    }
+    .banner-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+    .banner-right img{
+        height: 480px;
+    }
+    .brand-logos{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-row-gap: 10px;
+    }
+    .brand-logos img{
+        width: 100px;
+        height: 50px;
+    }
+    .collection-carts{
+        width: 75%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .btn-section{
+        padding-right: 20px;
+    }
+    .contact-details{
+        padding: 0 10px;
+    }
+    
+}
