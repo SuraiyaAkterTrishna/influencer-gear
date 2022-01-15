@@ -262,6 +262,9 @@ footer .social-media-icon{
     justify-content: space-evenly;
     margin: 17px auto;
 }
+.social-media-icon a:hover .fab{
+    background-color: #E02C6D;
+}
 footer .fab{
     color: white;
     font-size: 17px;
